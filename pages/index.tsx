@@ -19,14 +19,14 @@ export default function Home() {
         <div className={styles.hero}>
           <h1 className={styles.title}>
             <span className={firaSansLight.className}>
-              Hi! I'm&nbsp;
+              Hi! I&apos;m&nbsp;
             </span>
             <span className={firaSansBold.className}>
             Julie Kristen.
             </span>
           </h1>
           <h2 className={`${firaSansLight.className} ${styles.subtitle}`}>
-            I'm a software developer and DevOps engineer who specializes in Natural Language Processing.
+            I&apos;m a software developer and DevOps engineer who specializes in Natural Language Processing.
           </h2>
         </div>
         <div className={firaSansRegular.className}>
