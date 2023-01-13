@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  color: var(--primary-font-color);
+}
+.hero {
+  margin-top: 12rem;
+  min-height: 30rem;
+  .title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .subtitle  {
+    font-size: 1.5rem;
+  }
+}
+.content {
+  color: var(--primary-font-color);
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+  .hero {
+    margin-top: 2rem;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .hero {
+    margin-top: 8rem;
+  }
+}
